@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <h1>Gestión de Productos</h1>
+
+    <form id="productForm">
+        <input type="text" id="name" placeholder="Nombre del producto">
+        <input type="number" id="price" placeholder="Precio">
+        <button type="submit">Agregar</button>
+    </form>
+
+    <p id="message"></p>
+
+    <ul id="productList"></ul>
+
+    <button id="syncBtn">Sincronizar con API</button>
+</body>
+</html>

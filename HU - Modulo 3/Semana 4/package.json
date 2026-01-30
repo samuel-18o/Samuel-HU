@@ -1,0 +1,8 @@
+{
+  "name": "proyecto-mod3",
+  "version": "1.0.0",
+  "scripts": {
+    "api": "npx json-server db.json --port 3001",
+    "start": "npx serve ."
+  }
+}
